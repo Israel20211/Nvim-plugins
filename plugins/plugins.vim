@@ -1,9 +1,7 @@
 "Plugins
 call plug#begin('~/.vim/plugged')
 " Temas
-" Themes
 Plug 'morhetz/gruvbox'
-Plug 'artur-shaik/vim-javacomplete2'
 Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
@@ -18,7 +16,9 @@ Plug 'christoomey/vim-tmux-navigator'
 "NERDTREE
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
-
+"Languages extentions
+Plug 'sahibalejandro/vim-php'
+Plug 'artur-shaik/vim-javacomplete2'
 "ChadTree (Nerdtree Alternative )
 "
 "Airline
@@ -46,7 +46,6 @@ Plug 'tpope/vim-rhubarb'
 Plug 'junegunn/gv.vim'
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'
-
 
 "_____________________________
 call plug#end()

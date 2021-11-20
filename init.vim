@@ -63,8 +63,14 @@ set cmdheight=1
 let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 0
 colorscheme tokyonight
+filetype plugin indent on
+
+" This enables Vim's and noevim's syntax-related features. Without this, some
+" VimTeX features will not work (see ":help vimtex-requirements" for more
+" info).
+syntax enable
 "Close tags automatically
 "Cerrar tags automaticamente
-let g:closetag_filenames = '*.html,*.xhtml,*.phtml, *.jsx, *.js, *.java, *.c, *.py'
+let g:closetag_filenames = '*css.,*.html,*.xhtml,*.phtml, *.jsx, *.js, *.java, *.c, *.py, *.php'
 "-----------------------------------------------------------------
 
